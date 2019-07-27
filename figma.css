@@ -9,7 +9,7 @@
 .jumbotron{
 	background: url("img/1.jpg");
 	box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-	height: 537px;
+	min-height: 537px;
 }
 
 .jumbotron_text{
@@ -32,6 +32,16 @@
 	font-size: 1.5rem;
 	font-weight: bold;
 	font-style: normal;
+}
+
+.jumbotron_buttons{
+	margin-bottom: 50px;
+}
+
+.jumbotron_buttons button {
+	font-size: 13px;
+	padding: 7px 27px 7px 27px;
+	font-weight: bold;
 }
 
 
