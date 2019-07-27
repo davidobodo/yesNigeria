@@ -15,7 +15,20 @@
 .jumbotron_text{
 	padding-top: 260px;
 	padding-left: 250px;
-    max-width: 750px;
+	max-width: 750px;
+	color: #f9f9f9;
+}
+
+.jumbotron h4{
+	font-size: 18px;
+	font-weight: bold;
+	word-spacing: 5px;
+}
+
+.jumbotron h2{
+	line-height: 36px;
+	margin-top: 20px;
+    margin-bottom: 18px;
 }
 
 
