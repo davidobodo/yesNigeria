@@ -111,4 +111,29 @@
 	line-height: 29px;
 }
 
+.become_a_member{
+	background: linear-gradient(0deg, rgba(54,85,7,0.57), rgba(54,85,7,0.57));
+	height: 300px;
+	margin: 150px 0 100px;
+}
 
+.become_a_member h4{
+	padding:6px 60px 6px 60px;
+}
+
+.become_a_member button{
+	width: 200px;
+}
+
+.mission_vission_agenda{
+	margin: 0 75px;
+}
+
+.mission_vission_agenda h4{
+	color:#7AB324;
+	font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1.5rem;
+	
+}
