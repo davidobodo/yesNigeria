@@ -3,7 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Josefin Sans', sans-serif;
-	color:#fff;
 }
 
 .jumbotron{
@@ -42,6 +41,46 @@
 	font-size: 13px;
 	padding: 7px 27px 7px 27px;
 	font-weight: bold;
+}
+
+.our_summary{
+	color: #f9f9f9;
+	display: flex;
+    justify-content: center;
+    z-index: 100;
+    margin-top: -100px;
+}
+.sum{
+	width: 216px;
+	height: 229px;
+	padding: 0 10px;
+}
+
+.sum h4{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-size: 17px;
+	font-weight: 600;
+	word-spacing: 5px;
+}
+
+.sum p{
+	font-weight: 300;
+}
+
+.summaryNetwork{
+	background-color: #7AB324;
+	border: 1px solid #8ABB3E;
+}
+
+.summaryGoals{
+	background-color: #4F5152;
+	border: 1px solid #656667;
+}
+
+.summaryAbout_us{
+	background-color: #E47D23;
+	border: 1px solid #E68D3D;
 }
 
 
