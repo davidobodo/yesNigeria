@@ -167,3 +167,58 @@
 .news_update a{
 	color: #7AB324;
 }
+
+footer{
+	color:#f9f9f9;
+}
+
+#contact_info{
+	background-color: #4F5152;
+	padding: 60px 70px 50px 70px;
+}
+
+#contact_info h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+    line-height: 22px;
+}
+
+#contact_info h6+h6{
+	color: #E47D23;
+}
+
+#contact_info h4{
+	font-size: 17px;
+	font-weight: 600;
+	word-spacing: 5px;
+}
+
+#contact_info li{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    font-style: normal;
+}
+
+#contact_info button{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: 0.1rem;
+}
+
+#contact_info button+button{
+	background-color: #E47D23;
+}
+
+.copyright{
+	background-color: #7AB324;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 22px;
+	letter-spacing: 0.1rem;
+}
