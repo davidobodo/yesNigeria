@@ -135,5 +135,35 @@
     font-weight: bold;
     letter-spacing: 0.2rem;
     margin-bottom: 1.5rem;
-	
+}
+
+.news_update{
+	margin: 200px 200px 150px 200px
+}
+
+.news_update h3{
+	color: #E47D23;
+}
+
+.news_update p{
+	max-width: 480px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	line-height: 20px;
+	letter-spacing: 0.01rem;
+	color:#52514F;
+}
+
+.news_update h5{
+	letter-spacing: 0.1rem;
+    line-height: 33px;
+	font-size: 16px;
+	font-style:normal;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 1rem;
+}
+
+.news_update a{
+	color: #7AB324;
 }
