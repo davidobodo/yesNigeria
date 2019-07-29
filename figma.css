@@ -11,6 +11,15 @@
 	min-height: 537px;
 }
 
+.navbar{
+	background-color: #fff;
+	padding: 2rem;
+}
+
+.nav-item .nav-link a{
+	color: #7AB324;
+}
+
 .jumbotron_text{
 	padding-top: 260px;
 	/* padding-left: 200px;
