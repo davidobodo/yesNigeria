@@ -29,6 +29,15 @@
 
 }
 
+button.nav-register{
+	background-color: #E47D23;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: 0.1rem;
+}
+
 .jumbotron_text{
 	padding-top: 260px;
 	/* padding-left: 200px;
