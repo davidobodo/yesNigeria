@@ -229,7 +229,7 @@ footer{
     font-style: normal;
 }
 
-#contact_info button{
+#contact_info button, #contact_info input{
 	font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 11px;
@@ -237,7 +237,17 @@ footer{
     letter-spacing: 0.1rem;
 }
 
-#contact_info button+button{
+#contact_info input{
+	background-color:#4F5152;
+	border: 1px solid white;
+    padding: 6px 5px;
+}
+
+ ::placeholder{
+	color:#fff;
+}
+
+#contact_info input+button{
 	background-color: #E47D23;
 }
 
