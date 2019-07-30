@@ -292,3 +292,24 @@ footer{
     flex-direction: column;
     justify-content: center;
 }
+
+.agenda {
+	background-color: #4F5152;
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.agenda_inner{
+	color:#fff;
+	border:3px solid #fff;
+	margin:30px;
+}
+
+.agenda h5{
+	width: 160px;
+	padding: 7px 0;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: 0.1rem;
+}
