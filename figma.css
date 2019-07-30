@@ -367,11 +367,29 @@ main .pictures div{
 
 /* news update styles (using bootstrap also) */
 
-main .news_update_details{
-	border: 1px solid red;
+div .news{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+div.news h6, h1{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing:0.1rem;
+}
+
+div .news_update_details{
 	margin-right: 70px;
 }
 
-main .calendar{
-	border: 1px solid blue;
+div .news_update_details a.read_more {
+	color:#DB7116;
+}
+
+div .news_update_details div:first-child{
+	margin-bottom: 130px;
+}
+
+div .calendar{
 }
