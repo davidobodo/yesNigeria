@@ -313,3 +313,41 @@ footer{
     line-height: 22px;
     letter-spacing: 0.1rem;
 }
+
+/* gallery styles(flexbox) */
+
+main{
+	margin-top: 200px;
+	margin-bottom: 150px;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+main .gallery_links{
+	background:linear-gradient(0deg, rgba(122, 179, 36,0.65), rgba(122, 179, 36, 0.65))
+}
+
+main .gallery_links ul{
+	display: flex;
+	padding-left: 20px;
+}
+
+main .gallery_links ul li{
+	list-style-type: none;
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+    font-size: 18px;
+    line-height: 37px;
+	letter-spacing: 0.1rem;
+	color: white;
+}
+
+main button.btn{
+	background-color:#E5E5E5;
+	color:black;
+	padding-left: 5rem;
+	padding-right: 5rem;
+
+}
