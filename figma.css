@@ -351,3 +351,16 @@ main button.btn{
 	padding-right: 5rem;
 
 }
+
+main .pictures{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	justify-content: space-between;
+}
+
+main .pictures div{
+	flex-basis: 270px;
+	margin-top: 10px;
+}
