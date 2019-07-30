@@ -317,7 +317,7 @@ footer{
 /* gallery styles(flexbox) */
 
 main{
-	margin-top: 200px;
+	margin-top: 100px;
 	margin-bottom: 150px;
 	text-align: center;
 	margin-left: 100px;
@@ -363,4 +363,15 @@ main .pictures{
 main .pictures div{
 	flex-basis: 270px;
 	margin-top: 10px;
+}
+
+/* news update styles (using bootstrap also) */
+
+main .news_update_details{
+	border: 1px solid red;
+	margin-right: 70px;
+}
+
+main .calendar{
+	border: 1px solid blue;
 }
