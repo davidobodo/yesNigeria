@@ -394,3 +394,32 @@ div .news_update_details div:first-child{
 div .calendar{
 	margin-top:220px;
 }
+
+div .calendar li{
+	list-style: none;
+	color:#52514F;
+	border-bottom: 1px solid #EDEDED;
+	font-family: 'Open Sans', sans-serif;
+	font-style:normal;
+	font-weight: bold;
+	font-size:13px;
+	line-height:27px;
+	text-align: justify;
+	letter-spacing: 0.1rem;
+	padding-bottom: 3px;
+    padding-top: 10px;
+}
+
+div .calendar h3{
+	font-family: 'Open Sans', sans-serif;
+	font-style:normal;
+	font-weight: bold;
+	font-size:24px;
+	line-height:49px;
+	text-align: justify;
+	letter-spacing: 0.1rem;
+}
+
+div.calendar>div+div{
+	margin-top: 100px;
+}
