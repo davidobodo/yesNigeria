@@ -394,6 +394,29 @@ footer{
     letter-spacing: 0.1rem;
 }
 
+
+
+@media(max-width:576px){
+	div.avm_inner{
+		margin-right: 80px !important;
+		margin-left: 80px;
+		margin-bottom: 50px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		order:-5;
+	}
+
+	div.about_vision_mission{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	div.about_vision_mission img{
+		display: none;
+	}
+}
+
+
 /* gallery styles(flexbox) */
 
 main{
