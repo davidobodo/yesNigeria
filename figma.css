@@ -417,6 +417,9 @@ footer{
 }
 
 
+
+
+
 /* gallery styles(flexbox) */
 
 main{
@@ -467,6 +470,33 @@ main .pictures div{
 	flex-basis: 270px;
 	margin-top: 10px;
 }
+
+
+
+
+
+@media (max-width:576px){
+	main .gallery_links ul {
+		display: none;
+	}
+
+	main .pictures{
+		justify-content: center;
+	}
+
+	main#pictures{
+		display: flex !important;
+		flex-direction: column;
+	}
+
+	main#pictures button{
+		order: -5;
+	}
+}
+
+
+
+
 
 /* news update styles (using bootstrap also) */
 
