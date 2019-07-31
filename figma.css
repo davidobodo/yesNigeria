@@ -40,8 +40,6 @@ button.nav-register{
 
 .jumbotron_text{
 	padding-top: 260px;
-	/* padding-left: 200px;
-	max-width: 750px; */
 	color: #f9f9f9;
 }
 
@@ -259,6 +257,88 @@ footer{
 	line-height: 22px;
 	letter-spacing: 0.1rem;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width:576px){
+	.our_summary{
+		display: none;
+	}
+	
+	#about_us{
+		margin-top: 100px;
+	}
+	
+	.jumbotron_text{
+		margin-left: 50px;
+	}
+	
+	.become_a_member{
+		padding-left:40px;
+		padding-right: 40px;
+		text-align: center;
+	}
+	
+	div.mission_vission_agenda>div{
+		flex-direction: column;
+	}
+	div.mission_vission_agenda>div>div+.ml-5{
+		margin-left: 0px !important;
+		margin-top: 40px;
+	}
+	div.news_update{
+		margin-top: 150px;
+		margin-left:50px;
+		margin-right:50px;
+	}
+
+	div.news_update>div.d-flex{
+		flex-direction: column;
+	}
+
+	div.news_update>div.d-flex>div.mr-5{
+		margin-right: 0px !important;
+		margin-bottom: 60px !important;
+	}
+
+	div.news_update>div.d-flex>div.ml-5{
+		margin-left: 0px !important;
+	}
+
+	div#contact_info{
+		flex-direction: column;
+	}
+
+	div#contact_info>div:first-child{
+		text-align: left !important;
+		margin-bottom: 50px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ABOUT PAGE STYLES */
