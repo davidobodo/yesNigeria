@@ -517,6 +517,11 @@ main .pictures div{
 	main#pictures button{
 		order: -5;
 	}
+
+	main button.btn{
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 
