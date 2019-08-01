@@ -587,6 +587,61 @@ div.calendar>div+div{
 	margin-top: 100px;
 }
 
+
+
+
+
+
+@media (max-width:576px){
+	div .news_update_details{
+		margin-right: 0;
+	}
+
+	div.news_update_details h6{
+		text-align: center;
+		font-size: 11px;
+	}
+	div.news_update_details h1{
+		text-align: center;
+		font-size: 18px;
+	}
+	div.calendar{
+		margin-top: 0px;
+		margin-bottom: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* contact styles (no bootstrap) */
 
 div.contact_body{
