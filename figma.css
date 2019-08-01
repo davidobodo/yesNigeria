@@ -720,3 +720,23 @@ div.contact_body_inner ul li {
 div.contact_body_form + div{
 	width: 20%;
 }
+
+@media (max-width:576px){
+	div.contact_body{
+		margin-bottom: 80px;
+		margin-top: 80px;
+	}
+
+	div.contact_body_inner{
+		flex-direction: column;
+	}
+
+	div.contact_body_form{
+		width: 80%;
+		margin: auto;	
+	}
+
+	div.contact_body_form+div{
+		display: none;
+	}
+}
