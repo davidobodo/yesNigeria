@@ -322,6 +322,20 @@ footer{
 		margin-bottom: 50px;
 	}
 
+	footer input{
+		margin-bottom: 1.5rem;
+		display: block;
+	}
+
+	footer ul.ml-3{
+		margin-left: 0 !important;
+	}
+
+	footer .text-right{
+		text-align: left !important;
+		margin-top: 1.5rem;
+	}
+
 }
 
 
