@@ -297,7 +297,7 @@ footer{
 		margin-left: 0px !important;
 		margin-top: 40px;
 	}
-	
+
 	div#contact_info{
 		flex-direction: column;
 	}
@@ -423,6 +423,31 @@ footer{
 		padding-top: 30px;
 		padding-bottom: 30px;
 		order:-5;
+	}
+
+	div.avm_inner p.px-5{
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
+	}
+
+	div.about_vision_mission{
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	div.about_vision_mission img{
+		display: none;
+	}
+}
+
+@media(max-width:768px){
+	div.avm_inner{
+		margin-right: 80px !important;
+		margin-left: 80px;
+		/* margin-bottom: 50px; */
+		padding-top: 30px;
+		padding-bottom: 30px;
+		/* order:-5; */
 	}
 
 	div.avm_inner p.px-5{
