@@ -444,10 +444,8 @@ footer{
 	div.avm_inner{
 		margin-right: 80px !important;
 		margin-left: 80px;
-		/* margin-bottom: 50px; */
 		padding-top: 30px;
 		padding-bottom: 30px;
-		/* order:-5; */
 	}
 
 	div.avm_inner p.px-5{
@@ -626,7 +624,6 @@ div.calendar>div+div{
 		font-size: 18px;
 	}
 	div.calendar{
-		margin-top: 0px;
 		margin-bottom: 100px;
 	}
 }
