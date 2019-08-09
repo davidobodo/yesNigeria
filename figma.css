@@ -524,25 +524,13 @@ main .pictures div{
 @media (max-width:576px){
 	main .gallery_links ul {
 		display: none;
-	}
-
-	main .pictures{
-		justify-content: center;
-	}
+	}	
 
 	main#pictures{
 		display: flex !important;
 		flex-direction: column;
 	}
 
-	main#pictures button{
-		order: -5;
-	}
-
-	main button.btn{
-		padding-left: 0;
-		padding-right: 0;
-	}
 }
 
 
