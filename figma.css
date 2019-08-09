@@ -78,7 +78,6 @@ button.nav-register{
 }
 .sum{
 	width: 216px;
-	height: 229px;
 	padding: 0 10px;
 }
 
@@ -241,9 +240,6 @@ footer{
     padding: 6px 5px;
 }
 
- ::placeholder{
-	color:#fff;
-}
 
 #contact_info input+button{
 	background-color: #E47D23;
@@ -257,8 +253,6 @@ footer{
 	line-height: 22px;
 	letter-spacing: 0.1rem;
 }
-
-
 
 
 
@@ -316,7 +310,9 @@ footer{
 	div.news_update>div.d-flex>div.ml-5{
 		margin-left: 0px !important;
 	}
+}
 
+@media(max-width: 768px){
 	div#contact_info{
 		flex-direction: column;
 	}
@@ -339,27 +335,16 @@ footer{
 		text-align: left !important;
 		margin-top: 1.5rem;
 	}
-
 }
 
+@media (max-width:992px){
+	footer div#contact_info{
+		flex-wrap: wrap;
+		justify-content: space-around !important;
+	}
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* -------------------------------------------------------------------------------- */
 
 /* ABOUT PAGE STYLES */
 .jumbotron_otherpages{
@@ -416,6 +401,9 @@ footer{
 
 
 
+
+
+
 @media(max-width:576px){
 	div.avm_inner{
 		margin-right: 80px !important;
@@ -442,8 +430,7 @@ footer{
 }
 
 
-
-
+/* --------------------------------------------------------------------------------- */
 
 /* gallery styles(flexbox) */
 
@@ -526,7 +513,7 @@ main .pictures div{
 
 
 
-
+/* ---------------------------------------------------------------------------------------------- */
 
 /* news update styles (using bootstrap also) */
 
@@ -589,9 +576,6 @@ div.calendar>div+div{
 
 
 
-
-
-
 @media (max-width:576px){
 	div .news_update_details{
 		margin-right: 0;
@@ -612,35 +596,7 @@ div.calendar>div+div{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------------------------------------------------------------- */
 
 /* contact styles (no bootstrap) */
 
@@ -720,6 +676,10 @@ div.contact_body_inner ul li {
 div.contact_body_form + div{
 	width: 20%;
 }
+
+
+
+
 
 @media (max-width:576px){
 	div.contact_body{
