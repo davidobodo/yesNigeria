@@ -714,7 +714,7 @@ div.contact_body_form + div{
 
 
 
-@media (max-width:576px){
+@media (max-width:992px){
 	div.contact_body{
 		margin-bottom: 80px;
 		margin-top: 80px;
@@ -725,7 +725,7 @@ div.contact_body_form + div{
 	}
 
 	div.contact_body_form{
-		width: 80%;
+		width: 60%;
 		margin: auto;	
 	}
 
