@@ -281,6 +281,11 @@ footer{
 		text-align: center;
 	}
 
+	
+}
+
+@media(max-width: 768px){
+
 	div.mission_vission_agenda{
 		margin:0 40px;
 	}
@@ -292,27 +297,7 @@ footer{
 		margin-left: 0px !important;
 		margin-top: 40px;
 	}
-	div.news_update{
-		margin-top: 150px;
-		margin-left:50px;
-		margin-right:50px;
-	}
-
-	div.news_update>div.d-flex{
-		flex-direction: column;
-	}
-
-	div.news_update>div.d-flex>div.mr-5{
-		margin-right: 0px !important;
-		margin-bottom: 60px !important;
-	}
-
-	div.news_update>div.d-flex>div.ml-5{
-		margin-left: 0px !important;
-	}
-}
-
-@media(max-width: 768px){
+	
 	div#contact_info{
 		flex-direction: column;
 	}
@@ -338,9 +323,35 @@ footer{
 }
 
 @media (max-width:992px){
+
+	div.news_update{
+		margin-top: 150px;
+		margin-left:50px;
+		margin-right:50px;
+	}
+
+	div.news_update>div.d-flex{
+		flex-direction: column;
+	}
+
+	div.news_update>div.d-flex>div.mr-5{
+		margin-right: 0px !important;
+		margin-bottom: 60px !important;
+	}
+
+	div.news_update>div.d-flex>div.ml-5{
+		margin-left: 0px !important;
+	}
+}
+
+@media (max-width:1200px){
 	footer div#contact_info{
 		flex-wrap: wrap;
 		justify-content: space-around !important;
+	}
+
+	footer div#contact_info>div:first-child{
+		flex-basis: 50%;
 	}
 }
 
