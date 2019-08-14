@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="figma.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="aos.css" />
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
@@ -40,7 +41,7 @@
 				<button type="button" class="btn btn-outline-light rounded-0 nav-register px-4">REGISTER</button>
 
 			</nav>
-			<div class="row">
+			<div class="row" data-aos="fade-up">
 				<div class="col-sm-1"></div>
 				<div class="jumbotron_text col-sm-7">
 					<h4>OUR CAMPAIGN IS SIMPLE #WEBELIEVEINNIGERIA</h4>
@@ -55,21 +56,21 @@
 		</div>
 
 		<div class="our_summary text-center">
-			<div class="my_green sum">
+			<div class="my_green sum" data-aos="fade-right">
 				<h4>OUR NETWORK</h4>
 				<p class="mb-5"> Enterpreneurs are widely celebrated as job creators and catalysts for economic growth.</p>
 			</div>
-			<div class="my_ash sum">
+			<div class="my_ash sum" data-aos="fade-down">
 				<h4>OUR GOALS</h4>
 				<p class="mb-5">We shall establish an excellent working relationship with the Government of Nigeria.</p>
 			</div>
-			<div class="my_orange sum">
+			<div class="my_orange sum" data-aos="fade-left">
 				<h4>ABOUT US</h4>
 				<p class="mb-5">We are an independent, non-partisan, not-for-profit organisation.</p>
 			</div>
 		</div>
 
-		<div id="about_us">
+		<div id="about_us" data-aos="zoom-in-up">
 			<h4 class="text-light my_orange text-center mx-auto mb-5 about">ABOUT US</h4>
 			<h3 class="text-center mx-auto mb-3">YES-NIGERIA</h3>
 			<h4 class="text-center text-danger mb-5">Youth Entrepreneurial Summit Nigeria</h4>
@@ -90,18 +91,18 @@
 
 		<div class="mission_vission_agenda">
 			<div class="d-flex mb-5">
-				<div>
+				<div data-aos="zoom-in-right">
 					<h4>OUR MISSION</h4>
 					<p> Our mandate is to unanimously create a path for better growth amongst the teeming population of
 						enterprising youth in Nigeria</p>
 				</div>
-				<div class="ml-5">
+				<div class="ml-5" data-aos="zoom-in-left">
 					<h4>OUR VISION</h4>
 					<p>Is to be the leading Private Sector Group that provides Nigerian young entrepreneurs and its
 						organization with the ability to perform and succeed through mentoring</p>
 				</div>
 			</div>
-			<div>
+			<div data-aos="zoom-out">
 				<h4>OUR AGENDA</h4>
 				<p> The Youth Entrepreneurial Summit Nigeria was formed to help bright and young Nigerian youth to
 					become successful entrepreneurs in order to be able to transform from being job seekers to Job
@@ -117,14 +118,14 @@
 				independent, non-partisan, not-for-profit organisation.</p>
 			<div class="d-flex">
 				<div class="mr-5">
-					<img src="1.jpg" class="w-100" />
+					<img src="1.jpg" class="w-100" data-aos="flip-left"/>
 					<h5>Genuine entrepreneurs and business leaders</h5>
 					<p>The Youth Entrepreneurial Summit Nigeria (YES-Nigeria) is an independent, non-partisan,
 						not-for-profit organisation.</p>
 					<a href="#">READ MORE...</a>
 				</div>
 				<div class="ml-5">
-					<img src="1.jpg" class="w-100" />
+					<img src="1.jpg" class="w-100" data-aos="flip-right"/>
 					<h5>Genuine entrepreneurs and business leaders</h5>
 					<p>The Youth Entrepreneurial Summit Nigeria (YES-Nigeria) is an independent, non-partisan,
 						not-for-profit
@@ -167,9 +168,17 @@
 			</div>
 		</footer>
 	</div>
+
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 2000,
+			offset : 200
+		})
+	</script>
 
 </body>
 </html>
