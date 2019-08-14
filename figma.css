@@ -6,10 +6,12 @@
 }
 
 .jumbotron{
-	background-color: #4F5152;
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") ;
+	background-size: cover;
 	box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
 	min-height: 537px;
 }
+
 
 .navbar{
 	background-color: #fff;
@@ -136,7 +138,7 @@ button.nav-register{
 }
 
 .become_a_member{
-	background: linear-gradient(0deg, rgba(54,85,7,0.57), rgba(54,85,7,0.57));
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 	padding: 50px 0;
 	margin: 150px 0 100px;
 }
