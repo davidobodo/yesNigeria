@@ -138,7 +138,7 @@ button.nav-register{
 }
 
 .become_a_member{
-	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60') ;
 	padding: 50px 0;
 	margin: 150px 0 100px;
 }
@@ -360,6 +360,12 @@ footer{
 /* -------------------------------------------------------------------------------- */
 
 /* ABOUT PAGE STYLES */
+
+.aboutJumbotron{
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") ;
+	background-size: cover;
+}
+
 .jumbotron_otherpages{
 	background-color: #4F5152;
 	box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
@@ -392,7 +398,9 @@ footer{
 }
 
 .agenda {
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") ;
 	background-color: #4F5152;
+	background-size: cover;
 	border-bottom: 1px solid white;
 }
 
@@ -470,6 +478,12 @@ footer{
 
 /* gallery styles(flexbox) */
 
+.galleryJumbotron{
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 main{
 	margin-top: 100px;
 	margin-bottom: 150px;
@@ -517,6 +531,10 @@ main .pictures{
 main .pictures div{
 	flex-basis: 270px;
 	margin-top: 10px;
+}
+
+div.owl-carousel img{
+	height: 150px;
 }
 
 
@@ -622,6 +640,13 @@ div.calendar>div+div{
 /* ------------------------------------------------------------------------------------- */
 
 /* contact styles (no bootstrap) */
+
+.contactJumbotron{
+	background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: bottom;
+}
 
 div.contact_body{
 	margin-top:100px;
